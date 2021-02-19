@@ -26,7 +26,7 @@ If you are not familiar with, please have a look at [API documentation](https://
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.1.1}
+polipo = {version = 0.1.2}
 ```
 
 and then add this to your **```code```**:
@@ -72,8 +72,6 @@ polipo::get_kraken_api_response(method: String, url_encoded_body: String).await;
 # Example
 
 The example below shows how easy is to implement **```polipo```** from zero knowledge.
-
-<br>
 
 ```rust
 use polipo;
