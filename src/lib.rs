@@ -1,3 +1,15 @@
+//! ![polipo](https://raw.githubusercontent.com/xonoxitron/polipo/master/polipo-logo.png)
+//!
+//! 🐙 Minimal, elegant, fast async Kraken exchange API client | Written in Rust
+//!
+//! # Description:
+//! **```polipo```** library aims to interface your software with the [Kraken exchange API](https://support.kraken.com/hc/en-us/categories/360000080686-API) in no time.
+//! 
+//! # Disclaimer
+//! This software comes without any kind of warranties. 
+//! I will not liable for any damages related to the use or the misuse of this software.
+//! You are the sole responsible.
+
 #[allow(dead_code)]
 #[warn(unused_variables)]
 mod client;
