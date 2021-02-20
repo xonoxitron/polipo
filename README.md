@@ -1,7 +1,7 @@
 ![polipo](./polipo-logo.png)
 =
 
-### Minimal, elegant, fast, async Kraken exchange API client | Written in Rust
+### 🐙 Minimal, elegant, fast, async Kraken exchange API client | Written in Rust
 
 <br>
 
@@ -21,21 +21,22 @@ If you are not familiar with, please have a look at [API documentation](https://
 
 <br>
 
-# Usage
+# Implementation
 
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.1.4}
+polipo = {version = 0.1.5}
 ```
 
 and then add this to your **```code```**:
 ```rust
 use polipo;
 ```
+
 <br>
 
-## Methods
+# Methods
 
 ```rust
 polipo::print_crate_info();
@@ -108,6 +109,6 @@ async fn main() {
 # Disclaimer
 This software comes without any kind of warranties. 
 
-I will not liable for any damages related to the use or the misuse of this software.
+I will not be liable for any damages related to the use or the misuse of this software.
 
 You are the sole responsible.
