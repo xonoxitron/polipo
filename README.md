@@ -26,7 +26,7 @@ If you are not familiar with, please have a look at [API documentation](https://
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.1.6}
+polipo = {version = 0.1.7}
 ```
 
 and then add this to your **```code```**:
