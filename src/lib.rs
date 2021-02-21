@@ -18,7 +18,7 @@
 //! Add this to your **```Cargo.toml```**:
 //! ```toml
 //! [dependencies]
-//! polipo = {version = 0.1.8}
+//! polipo = {version = 0.1.9}
 //! ```
 //! 
 //! and then add this to your **```code```**:
@@ -31,7 +31,7 @@
 //! ```rust
 //! polipo::print_crate_info();
 //! ```
-//! **Description**: prints **```crate```** information (name, description, version,author and repository).
+//! **Description**: prints **```crate```** information (name, description, version, author and repository).
 //! 
 //! ```rust
 //! polipo::set_kraken_api_credentials(api_key: String, api_secret: String);

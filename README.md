@@ -26,7 +26,7 @@ If you are not familiar with, please have a look at [API documentation](https://
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.1.8}
+polipo = {version = 0.1.9}
 ```
 
 and then add this to your **```code```**:
@@ -41,7 +41,7 @@ use polipo;
 ```rust
 polipo::print_crate_info();
 ```
-**Description**: prints **```crate```** information (name, description, version,author and repository).
+**Description**: prints **```crate```** information (name, description, version, author and repository).
 
 <br>
 
