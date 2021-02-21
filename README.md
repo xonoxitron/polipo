@@ -26,7 +26,7 @@ If you are not familiar with, please have a look at [API documentation](https://
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.1.5}
+polipo = {version = 0.1.6}
 ```
 
 and then add this to your **```code```**:
@@ -99,7 +99,7 @@ async fn main() {
 
     // performing some queries on private data
     println!("private/Balance: {}", query("Balance", "").await);
-    println!("private/TradeBalance: {}", query("TradeBalance","asset=ada" .await);
+    println!("private/TradeBalance: {}", query("TradeBalance","asset=ada").await);
     println!("private/Trades: {}", query("Trades", "pair=ethusd&since=1574067140000000000").await);
 }
 ```

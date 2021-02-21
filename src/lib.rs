@@ -18,7 +18,7 @@
 //! Add this to your **```Cargo.toml```**:
 //! ```toml
 //! [dependencies]
-//! polipo = {version = 0.1.5}
+//! polipo = {version = 0.1.6}
 //! ```
 //! 
 //! and then add this to your **```code```**:
@@ -83,7 +83,7 @@
 //! 
 //!     // performing some queries on private data
 //!     println!("private/Balance: {}", query("Balance", "").await);
-//!     println!("private/TradeBalance: {}", query("TradeBalance","asset=ada" .await);
+//!     println!("private/TradeBalance: {}", query("TradeBalance","asset=ada").await);
 //!     println!("private/Trades: {}", query("Trades", "pair=ethusd&since=1574067140000000000").await);
 //! }
 //! ```
@@ -91,7 +91,7 @@
 //! # Disclaimer
 //! This software comes without any kind of warranties.
 //! 
-//! I will not liable for any damages related to the use or the misuse of this software.
+//! I will not be liable for any damages related to the use or the misuse of this software.
 //! 
 //! You are the sole responsible.
 
