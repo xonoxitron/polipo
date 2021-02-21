@@ -14,7 +14,7 @@
 //! If you are not familiar with, please have a look at [API documentation](https://support.kraken.com/hc/en-us/categories/360001806372) for a general overview, or at [Generate API keys](https://support.kraken.com/hc/en-us/articles/360022839451-Generate-API-keys) document.
 //! 
 //! 
-//! # Usage
+//! # Implementation
 //! Add this to your **```Cargo.toml```**:
 //! ```toml
 //! [dependencies]
