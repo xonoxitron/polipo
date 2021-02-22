@@ -19,7 +19,7 @@
 //! Add this to your **```Cargo.toml```**:
 //! ```toml
 //! [dependencies]
-//! polipo = {version = 0.2.2}
+//! polipo = {version = 0.2.3}
 //! ```
 //! 
 //! and then add this to your **```code```**:

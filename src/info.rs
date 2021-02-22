@@ -1,7 +1,7 @@
 const NAME: &str = "polipo";
 const DESCRIPTION: &str =
-    "🐙 Minimal, elegant, fast, async Kraken exchange API client | Written in Rust";
-const VERSION: &str = "0.2.2";
+    "🐙 Minimal, elegant, fast, async Kraken exchange REST API client | Written in Rust";
+const VERSION: &str = "0.2.3";
 const AUTHOR: &str = "Matteo Pisani <matteo.pisani.91@gmail.com>";
 const REPOSITORY: &str = "https://github.com/xonoxitron/polipo";
 
