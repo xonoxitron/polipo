@@ -1,11 +1,10 @@
 [package]
 name = "polipo"
 description = "🐙 Minimal, elegant, fast, async Kraken exchange API client | Written in Rust"
-version = "0.1.9"
+version = "0.2.0"
 authors = ["Matteo Pisani <matteo.pisani.91@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/xonoxitron/polipo"
-homepage = "https://github.com/xonoxitron/polipo"
 documentation = "https://docs.rs/polipo/"
 keywords = ["rust", "kraken", "exchange", "api", "cryptocurrency"]
 categories = ["api-bindings", "web-programming::http-client"]
@@ -16,7 +15,7 @@ edition = "2018"
 
 [dependencies]
 tokio = { version = "1.2.0", features = ["full"] }
-reqwest = { version = "0.11", features = ["json", "blocking"] }
+reqwest = { version = "0.11.1"}
 base64 = {version = "0.13.0"}
 sha2 = {version = "0.9.3"}
 hmac = {version = "0.10.1"}
