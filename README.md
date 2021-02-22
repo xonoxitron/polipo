@@ -1,7 +1,7 @@
 ![polipo](./polipo-logo.png)
 =
 
-### 🐙 Minimal, elegant, fast, async Kraken exchange API client | Written in Rust
+### 🐙 Minimal, elegant, fast, async Kraken exchange HTTP API client | Written in Rust
 
 <br>
 
@@ -26,7 +26,7 @@ If you are not familiar with, please have a look at [API documentation](https://
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.2.0}
+polipo = {version = 0.2.1}
 ```
 
 and then add this to your **```code```**:
