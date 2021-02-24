@@ -20,7 +20,7 @@ If you are not familiar with, please have a look at [API basics documentation](h
 Add this to your **```Cargo.toml```**:
 ```toml
 [dependencies]
-polipo = {version = 0.2.4}
+polipo = {version = 0.2.5}
 ```
 
 and then add this to your **```code```**:

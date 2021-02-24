@@ -19,7 +19,7 @@
 //! Add this to your **```Cargo.toml```**:
 //! ```toml
 //! [dependencies]
-//! polipo = {version = 0.2.4}
+//! polipo = {version = 0.2.5}
 //! ```
 //! 
 //! and then add this to your **```code```**:
@@ -99,8 +99,6 @@
 //! 
 //! You are the sole responsible.
 
-#[allow(dead_code)]
-#[warn(unused_variables)]
 mod client;
 mod config;
 mod info;
