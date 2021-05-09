@@ -31,7 +31,7 @@ fn get_headers(signature: String) -> HeaderMap {
     );
     headers.insert(
         "API-Sign",
-        HeaderValue::from_str(&signature.to_string()).unwrap(),
+        HeaderValue::from_str(&signature).unwrap()
     );
     headers
 }

@@ -10,5 +10,4 @@ pub fn get_crate_info() -> String {
         "Name: {}\r\nDescription: {}\r\nVersion: {}\r\nAuthor: {}\r\nRepository: {}",
         NAME, DESCRIPTION, VERSION, AUTHOR, REPOSITORY
     )
-    .to_string()
 }
